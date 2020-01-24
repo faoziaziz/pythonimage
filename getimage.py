@@ -2,11 +2,11 @@ import mysql.connector
 from mysql.connector import errorcode
 
 config = {
-    'user':'trumon',
-    'password':'S@m@st4!@#456',
-    'host':'localhost',
+    'user':'IntanKW',
+    'password':'IntanCantik',
+    'host':'labseni.com',
     'port':3306,
-    'database':'Trumon'
+    'database':'Trumon3'
 }
 
 
@@ -54,7 +54,7 @@ class GetImage:
 
 try:
     index=0
-    sql_get_query = """select * from Trumon.Image """
+    sql_get_query = """select * from Image """
     cnx = mysql.connector.connect(**config)
     print "Connected succesfully "
     curr = cnx.cursor()
