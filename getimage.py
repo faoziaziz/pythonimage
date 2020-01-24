@@ -2,9 +2,9 @@ import mysql.connector
 from mysql.connector import errorcode
 
 config = {
-    'user':'IntanKW',
-    'password':'IntanCantik',
-    'host':'labseni.com',
+    'user':'trumon',
+    'password':'S@m@st4!@#456',
+    'host':'localhost',
     'port':3306,
     'database':'Trumon'
 }
